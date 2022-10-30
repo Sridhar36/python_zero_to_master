@@ -1,0 +1,6 @@
+Notes:
+- to add new chars or ele in string use '+'
+- str() - for type conversion to string
+- to count spaces in a string - len([char for char in string if char == " "])
+- join() - imp -The join() method takes all items in an iterable and joins them into one string.
+A string must be specified as the separator.

@@ -1,0 +1,27 @@
+In order for any programmer to learn a language, there are four key things that you need to really
+master for any sort of language, including Python.
+
+First are the terms of that language.
+Sometimes a programming language has different words and different definitions for these words that
+you're going to have to memorize things like statements, variables, instantiation.
+Really complicated sounding words.
+But you need to understand what they mean so that you can talk to other programmers.
+You also need to learn about a languages data type.
+That is, what sort of data can a program hold?
+You can think of it as a values.
+Just like in real life, we have different ways to represent values like numbers, letters and symbols.
+In programming, we have these data types to store information, and each programming language has different
+sort of data types.
+Next, we need to learn about actions at the end of the day.
+All programming is is a way for us to tell our machines, Hey, store this data and then retrieve this
+data and perform some action on it.
+That's all it is, just using memory and performing some actions.
+So we're going to learn how to perform those actions.
+And then finally, we have to learn the best practices of each language.
+There's good ways of writing Python code, and then there's bad ways so that when we build our applications,
+our programs, well, we don't have a leaning tower like this, but we have a solid structure and a
+solid program.
+So throughout the course, we're going to learn about these things.
+But keep this in mind, these four things are what you need to become a good programmer, and I want
+to start the basic Python section with the data types.
+So let's get started.

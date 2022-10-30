@@ -1,0 +1,4 @@
+Python created by Guido in 1991 - monty python a british comic
+Python 3 created in 2008 - some features of python2 were stopped working
+
+once you update some python2 features like print without using braces will not work in Python 3

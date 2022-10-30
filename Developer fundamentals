@@ -1,0 +1,19 @@
+1. Dont learn a language as if you want to memorize everything. Learn on how
+to google the stuff and find solutions.,
+
+2. code commenting is a good habit.
+
+3. a good dev should be able to decide when to use which data structure.
+- like deciding when to use dict vs list
+- dict has no order vs list has an order, etc.,. you need to think of
+- dicts will hold keys vs lists just the indexes
+
+
+4. Clean, Readability, predictability, DRY (Do not repeat yourself)
+- comments and naming variables has to be good.
+- even others who see your code has to understand.
+- predictability - others should be able to predict and understand your code.
+- DRY: do not have repetative code.. creating reusable functions is better approach
+
+5. Always test your assumptions.  try to print that unknwon values or whatever you are not aware.. like print
+self or print type of values.
