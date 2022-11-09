@@ -1,0 +1,5 @@
+Python interpreter -
+When you create a project in Pycharm, a Python venv or interpreter will be created by default by Pycharm.
+
+You have to make sure you are pointing to the local installed path for python. Since this is the location
+where all the pip installed packages gets installed and injected.. So this will be your Python venv

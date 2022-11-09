@@ -1,0 +1,8 @@
+- PIP gets installed by default when you download and install python in your system.
+- PIP is standard pkg manager for python it allows us to install and manage the additional packages which are not part
+of Python standard library.
+- PIP download and install, injects the pkgs directly into the Python virtual env i.e., venv
+- It installs them by default in lib under site-packages
+
+- to install specific version of a pkg
+    pip install selenium==3.141.0

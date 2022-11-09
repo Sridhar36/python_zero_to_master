@@ -1,0 +1,83 @@
+'''
+Git is one of the most important tool every developer has to be aware of
+
+Source control:
+In real life, projects are huge and you are not the only developer working.
+Source control enables multiple people work on same project from various locations
+
+We have a copy of the project, but there is a centralized location up somewhere, maybe owned by the
+
+company or somewhere on the internet that has the ultimate version that we each talk to to make sure
+
+that we each have the same version.
+
+Getting GitHub is a way to do this, to be able to use source control.
+
+And as a matter of fact, it's the de facto way of doing this.
+
+So like I said before, this is most likely the tool you'll be using every single day at your workplace.
+
+So if I go to the GitHub website here, what it allows us to do is it's a place, a central place that
+
+both Andre and Marci can talk to.
+
+So even though we work on the same files, the same project.
+
+I can ask this central location such as GitHub.
+
+Hey, has Marcy made any changes?
+
+And Marcy can ask.
+
+Hey, has Andre made any changes?
+
+And every once in a while you'll get something like this where we have cool background and super background,
+
+where we have something called a merge conflict.
+
+What GitHub allows us to do is say, Hey, I notice there is a merge conflict.
+
+I see that you guys have both changed your background.
+
+I don't know who's right, but here's the information.
+
+Andrei Marcy, can you guys talk amongst yourself and figure it out?
+
+That's pretty much the workflow.
+
+So let's actually see what this looks like.
+
+The first thing we want to do is set up a GitHub account.
+
+If you haven't done it in the previous exercises, you absolutely should start a GitHub account.
+
+It's free.
+
+And like I said before, if you're a developer, you just need to have it.
+
+It's where everybody puts their projects, it's where you work.
+
+You'll be spending a lot of time on this website.
+
+You might remember that when we had the GitHub project, I also told you to get GitHub for desktop.
+
+Although we use that to make things simpler during the video, this is actually not the recommended
+
+way of doing it.
+
+It allows you to visually see and interact with GitHub, but it's kind of looked down upon by employers
+
+It is not a good way since the code is exposed using the Github application. So better get used to the terminal.
+
+
+1. Login to Github
+2. create a repo
+3. push the code using git commands.
+
+Git commands:
+git clone <project link>
+git status - to see the status of what we have in the local folder.
+git add <filename>
+
+
+'''
