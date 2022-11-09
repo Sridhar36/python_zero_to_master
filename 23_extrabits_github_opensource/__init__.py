@@ -80,4 +80,43 @@ git status - to see the status of what we have in the local folder.
 git add <filename>
 
 
+1. open CMD from your project folder path
+2. config your credentials: username, email
+
+	git config --global user.name "Sridhar"
+	git config --global user.email "sridhar6261@gmail.com"
+
+3. now initialize the folder: git init
+ 	github creates this local file to understand your files and push the code. creates a .git file in the folder.
+4. to stage / stash the files: git add *
+   	if you want to see what all files are staged: git status
+5. commit all the code that is staged: git commit -m "commit message"
+6. if doing for the first time or creating a repo for the first time follow this step. Else exclude this and go to step 7
+
+                          git remote add origin "git repository link"
+
+to tell local .git file where to push the code we have to give repo link. We do it using this command.
+	eg: git remote add origin https://github.com/Sridhar36/python_zero_to_master.git
+7.  git push origin master
+
+note: git commands dont work unless you are in a .git folder. That is, in our case always open the cmd from the repo folder.
+
+to get the copy of an online repository :
+
+create a local folder
+open cmd
+git clone <repo link from git>
+
+if you make changes and want to push them:
+
+go to repo folder and open cmd
+git status > gives the set of changes and their status.
+
+git add <file> or git add *
+git commit -m " "
+git push
+
+to take pull request:
+
+git pull
 '''
