@@ -1,0 +1,21 @@
+1. find the project you want to contribute for
+2. fork it -> it is like to have your own copy of the project
+click on fork from the main proejt > select your profile > then you will see the project on your profile.
+3. clone or download it.
+Go to your D drive folder where u want to store the project.,. open cmd > git clone <repo link>
+4. you will see the project cloned.
+5. Now open in your own editor
+6. make the changes
+7. Now do not directly push changes to the master..instead create your own local branch and push the changes
+8.  git checkout < new branchname> to create a branch
+    git branch - to see available branches and u see * symbol on current branch
+    git status - to see status of files
+    git add * or git add . to add the files
+    git commit -m "commit message"
+    git push origin <branch name>
+
+    do not do git push origin master, this will push changes directly to master branch from where we have taken fork
+    origin - forked local copy
+    master - forked main repo
+9. now navigate to forked copy.. you will see option to raise the PR.. raise it with message
+10. someone will merge it
