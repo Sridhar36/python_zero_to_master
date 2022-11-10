@@ -120,3 +120,82 @@ to take pull request:
 
 git pull
 '''
+
+
+
+"""
+1. open CMD from your project folder path 
+2. config your credentials: username, email
+	
+	git config --global user.name "Sridhar"
+	git config --global user.email "sridhar6261@gmail.com"
+	
+3. now initialize the folder: git init
+ 	github creates this local file to understand your files and push the code. creates a .git file in the folder.
+4. to stage / stash the files: git add *
+   	if you want to see what all files are staged: git status
+5. commit all the code that is staged: git commit -m "commit message"
+6. if doing for the first time or creating a repo for the first time follow this step. Else exclude this and go to step 7
+
+                          git remote add origin "git repository link"   
+	
+to tell local .git file where to push the code we have to give repo link. We do it using this command.
+	eg: git remote add origin https://github.com/Sridhar36/python_zero_to_master.git
+7.  git push origin master 
+
+
+
+
+
+
+
+note: git commands dont work unless you are in a .git folder. That is, in our case always open the cmd from the repo folder.
+
+to get the copy of an online repository :
+
+create a local folder
+open cmd
+git clone <repo link from git>
+
+if you make changes and want to push them:
+
+go to repo folder and open cmd 
+git status > gives the set of changes and their status.
+
+git add <file> or git add *
+git commit -m " "
+git push
+
+
+if you want to take latest code from repo
+
+	- git pull
+
+direct master branch is not good option.
+Becuase it allows anyone to push any change to master/main without any monitoring,.
+
+If a newbie pushes some changes and that might possibly crash the app.
+
+
+To avoid this: we use branching
+
+we create branches for little features and work on them. Once that change is done we gonna merge the developed feature to the main master code or the main application we could say,.
+
+
+to create a new branch: git branch < new branch name>
+to get list of available branches: git branch
+to move to branch we want: git checkout <branch name>
+
+to push the changes:
+
+git add *
+git commit -m ""
+git push 
+
+On git hub it will show this separately as a yellow bar. Now you can click on it and add some message and raise a pull request.
+
+Main repo owner can go through the changes and merge the PR.
+
+
+
+"""
