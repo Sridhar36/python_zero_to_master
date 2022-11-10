@@ -1,0 +1,18 @@
+direct working on master branch is not good option. Since, it allows anyone to push any change to master/main without
+any monitoring. If a newbie pushes some changes and that might possibly crash the app then it is a mess.
+
+To avoid this: we use branching, we create branches for little features and work on them. Once that change is done we
+gonna merge the developed feature to the main master code or the main application we could say,.
+
+to create a new branch:      git branch < new branch name>
+to get list of available branches:          git branch  ; * sign indicates on whic branch we are
+to move to branch we want:      git checkout <branch name>
+
+to push the changes:
+
+git add * or git add .
+git commit -m ""
+git push (if only one branch you have)  | git push origin <branchname> (to push to desired branch)
+
+On git hub it will show this separately as a yellow bar. Now you can click on it and add some message and raise a pull
+request(PR). Main repo owner can go through the changes and merge the PR.

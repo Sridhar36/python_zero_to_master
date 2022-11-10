@@ -1,0 +1,45 @@
+how to contrubute to open source?
+
+What is open source? Any body can see the code, can modify, can enhance, can share etc.. like using collective mindset
+and using collective ideas for everyones growth. It is + to have to be a open source contributor.
+
+better way to contribute to open source is to fork the project or repo:
+FORK:
+- means copy all the project and put in your own github profile.
+- Fork essentially means copy over the entire project and put it on your own GitHub profile.
+
+So if I click Fork here and we see options that you can select where you want to fork the project and you want to select
+your profile. So once we fork this project, we make a copy of it. It's like we own this repository now with our own
+version of the PROJECT. So once we have this, we can clone this repository using SSH or https, whatever you prefer.
+In my case, I'll use SSH so that I don't have to use my password every time. I can now say git clone and clone this repository.
+Now we can CD and to start here guidelines and we can open this up in our favorite text editor.
+
+
+to clone or download repo or project:
+
+git clone <repo link>
+to create a new branch: git checkout -b <branch name>
+to push to the new branch: git push origin <branchname>
+
+Always push to your local branch, then raise the PR. Pushing to master or main directly is not good.
+if we do git push origin master:  origin is the my forked repo. And master is the main repo from where I forked.,
+
+if you want to add your changes to main branch, then you have to first push the changes to your local branch of the forked branch.
+Than raise a PR.
+
+Steps to contribute to open source..
+1. Fork the project.  {click on fork on the project u want to work on and select your profile}
+2. Clone or download the project to your local. {from your profile you will now see the forked project, clone or download it}
+    git clone <repo link>
+    to create a new branch: git checkout -b <branch name>
+    to push to the new branch: git push origin <branchname>
+3. Work on the features or the project.,
+4. create your own child branch of the cloned repo.
+5. add files, commit, push code to the child branch.
+6. go to source tree and raise the PR with appropriate comments.
+
+to push the changes:
+
+git add * or git add .
+git commit -m ""
+git push (if only one branch you have)  | git push origin <branchname> (to push to desired branch)
