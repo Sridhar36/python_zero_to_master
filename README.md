@@ -6,7 +6,7 @@ I have included advannce topics as well.
 
 If you want to contribute:
 
-1. fork the repo and createv your own copy.
+1. fork the repo and create your own copy.
 2. clone the repo and make your changes.
 3. create a local branch and push changes to the branch.
 4. create a PR from the forked repo.
