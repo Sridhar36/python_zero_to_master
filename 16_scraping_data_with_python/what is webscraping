@@ -1,0 +1,42 @@
+Well, web scraping simply means programmatically using Python or any language grabbing data from a website. You see,
+this is how websites work. We have a browser that we use like a chrome and we have a server. A server is simply a
+computer somewhere in the world that has three files that are needed to display a web page.
+We have an HTML file, which is the content of the website. You can think of that as text and images of a website.
+We have CSS, which gives us the colors and pretty styling that websites have.
+And then we have JavaScript which allows us to have different behaviors in our website, like submitting forms or having
+dropdown menus and all a browser does like chrome.
+
+Say, Hey, if Andre visits this website, let's say Fifa.com browser is going to know when I type in Fifa.com that says Hey
+server, can you give me the fifa.com? HTML, CSS and JavaScript files. And the server says Yep, no problem, here they are.
+And then the page gets displayed onto our browser. So these three files, well, the data in them is accessible to us, right?
+It gets displayed on a web page. So these files are now something that we can actually check out.
+
+https://www.airbnb.co.in/robots.txt
+
+Most websites don't really want you scraping their data. Now there's actually a way that websites tell you what you can
+and can't scrape. It's called Robots Dot Text. We simply say at the end of a URL slash.
+
+/Robots.txt
+
+Robots.txt simply says hey, if you're a robot, if you're a web scraper or a spider. This is why you're allowed and not allowed to do.
+Does it mean that they'll prevent us if we break the rules? No, they can't really prevent us.
+But this is a grey area where you want to be ethical here and only scrape the data that a website allows you.
+
+So if we look at robots.txt, you see here that Airbnb has created a tax file that tells us what you can and can't scrape
+For example, we look at the user agent here which says the Googlebot Airbnb is telling, Hey Googlebot,
+you're allowed to scrape this information, but we don't allow you to scrape account alumni calendar
+and you see that there's a lot of things that's disallowed.
+
+What about Bing search bot?
+
+Well, Bing, you're allowed to do this, but you can't.
+Scrape any of this data.
+
+We have Yandex.
+What else do we have?
+
+We have Baidu Spider.
+And then we also have User Agent Starr.
+
+That means anybody else, anybody else?
+You're allowed to scrape this, but none of this information.

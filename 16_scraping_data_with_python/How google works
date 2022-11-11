@@ -1,0 +1,21 @@
+https://www.udemy.com/course/complete-python-developer-zero-to-mastery/learn/lecture/16286192#notes
+
+What it does is it tries to figure out all the websites on the Web and index them. That is, create a essentially a database
+of all these Web pages so that when I Google soup recipes, Google gives me a website that has soup recipes. Now.
+How does it know what websites have soup recipes? Well, it uses this Googlebot and this is how Google got started.
+What they did was they had a crawler that is a program that crawled websites and read websites, kind of like we're about
+to do with web scraping to understand what the website is about. If the website mentioned the word soup recipes or had
+different text related to soup recipes, well, Googlebot is going to say this website is about soup recipes
+So when Andre searches soup recipes, I know that these websites are the ones that we want to show them. And this is what
+Google and Bing and Baidu all do. They have their own bots and they're constantly crawling websites to see what is the most
+relevant website to give to a user. So Airbnb here is saying, Hey Googlebot, when you come crawl my website, don't crawl any of these
+things because I don't want you to. But anything else that's not here, you
+
+When you do robot.txt:
+In the results whatever you see under User-agent: Googlebot with disallow are the ones website does not allow google bot to access or
+scrape. Everything else is allowed.
+
+If it doesn't have a robust text file or just leaves it empty, it means, hey, I don't care Google.
+You can rank my website, you can crawl my website.That's good too. And that's why Airbnb had different information here.
+We had specifically for Googlebot, for Bing bot, for all these search engines, but also for everybody
+else, maybe programmers like us that want to scrape the website.

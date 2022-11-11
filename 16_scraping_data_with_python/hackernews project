@@ -1,0 +1,36 @@
+In order to learn about web scraping, let's actually build a useful project that we can actually use
+and maybe even add to our portfolio. What I want to build is a nicer version of Hacker News.
+You see every morning as a programmer, I wake up and I usually read Hacker News because it's a great
+way for myself to stay up to date with the industry and just learn about general programming news.
+They have some really, really nice articles here, and a lot of programmers use Hacker News as a way
+to stay up to date with the industry. This page has a ton of information. As a matter of fact, every time you refresh,
+it's a new topic. New thing. If I go to the new tab here, for example, you see that? These stories as I refresh new
+stories get added constantly. So it's a very fast paced website because a lot of people post them, use links here to get traction
+because there's so many readers here. Now, in order for me not to get overwhelmed, I usually only like reading or checking out the stories
+that have over 100 points. That is, they've been upvoted by users. So let's build the tool using web scraping that when
+I wake up in the morning instead of having to scroll..
+through and find out all the stories that have over 100 points because those are the most popular ones,
+
+maybe the most important ones.
+
+Let's scrape this data and then remove all the stories that, well, have less than 100 points so that
+I can only focus on the important news articles.
+Sounds pretty exciting, right?
+That's a great use of Python to make our life easier.
+Now, after we're done with this project, there are many ways to apply this knowledge.
+For example, one of the things that Hacker News has is every month they have a who's hiring where companies
+post job opportunities for programmers.
+So a good project might be to actually scrape this data of companies posting different job opportunities
+and maybe try and figure out what the trends are.
+What type of programmers are the most in-demand?
+Hey, are Python programmers the most in-demand?
+Maybe by scraping and finding how many times the word Python gets mentioned?
+Or maybe is Java or JavaScript programmers the most common?
+And maybe you can create a website that tracks the trends of different posts to see, well, what skill
+you should be learning to stay up to date and make sure that it's the most in-demand skill.
+Just an idea. But let's focus on this for now. In order for us to scrape this website, we want to use a tool called Beautiful Soup.
+And beautiful soup is what we can use in Python.It's a library that we can use in Python to scrape websites.
+They have a very old school website here, but it's a very useful tool that most web scraping projects use.
+So in the next video, we're going to get our hands dirty. We're going to learn about beautiful soup and start creating
+our web scraping project with Hacker News. Let's get started.
+

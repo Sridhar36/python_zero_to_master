@@ -1,0 +1,8 @@
+be mindful of the branch you are working upon.
+say you have master branch and local branch created in your local.
+If you worked on your local repo and you pushed the changes from local branch to git.
+
+Now you changed your local working repo to master. You will not see the changes,.
+You got to do
+
+git pull origin master  to Fetch and merge changes on the remote server to your working directory:
