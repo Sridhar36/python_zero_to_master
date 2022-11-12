@@ -18,18 +18,17 @@ to google the stuff and find solutions.,
 5. Always test your assumptions.  try to print that unknwon values or whatever you are not aware.. like print
 self or print type of values.
 
-6. be careful about the packages we use So you have to develop that skill to make sure you're able to see, hey, this package is really popular
+6. be careful about the packages we use So you have to develop that skill to make sure you're able to see, hey, this
+package is really popular or this package is being maintained or this library is really popular with the community.
+So most likely it's a good package to use. So this is a skill that you need to develop. Also keep in mind that every
+time you add a library to, let's say, your project, you're adding more and more code, which means more and more bytes of
+data so your project gets heavier and heavier and heavier. So that's also something that you want to consider before
+you're importing a library.
 
-or this package is being maintained or this library is really popular with the community.
 
-So most likely it's a good package to use.
 
-So this is a skill that you need to develop.
-
-Also keep in mind that every time you add a library to, let's say, your project, you're adding more
-
-and more code, which means more and more bytes of data so your project gets heavier and heavier and
-
-heavier.
-
-So that's also something that you want to consider before you're importing a library.
+7. The key here being that, again, we want to make sure that we use a libraries that are up to date that work with Python
+three, but also libraries like Pillow here that have a lot of community support. If I go to GitHub here, we see that it
+has 6400 stars. It's been forked 1200 times and it's also used by 150,000 developers. That's a pretty good sign.
+We also see that the latest commit. Happened this year, which is awesome. Again, developing that skill to pick the right
+library is a sign of an experienced developer.

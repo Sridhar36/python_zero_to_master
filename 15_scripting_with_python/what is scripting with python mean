@@ -1,0 +1,12 @@
+But what do I really mean by scripting? This is just a general term to say that. Well, we're writing scripts. Scripts
+using Python to do something for us, to use the power of the machines to help us be more productive, more efficient.
+So this section is all about making our lives easier, understanding what the power of Python is, what
+we've learned up until now, and how we can use it to make our lives easier. We're going to learn about processing images
+really efficiently. We're going to learn about working with files like PDFs. We're going to learn how to send emails
+with Python, even text messages. We're going to build a Twitter bot. We're also going to build projects along the way to
+show you all the cool things we can do with Python. My favorite project that we're going to build is a super secure
+password checker to see if our passwords have ever been hacked. It's a really, really neat project.
+But the idea here is that with Python using all these libraries and modules that have been built by
+the Python community, we can do so much. So it's going to be a really exciting section and it's going to open up a whole
+world of possibilities. I'm only going to scratch the surface, but I guarantee you by the end of it, you're going to be
+really excited and truly understand the power of Python.

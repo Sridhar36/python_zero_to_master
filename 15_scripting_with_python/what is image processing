@@ -1,0 +1,35 @@
+Let's talk about image processing.
+This is something that happens a lot and a lot of companies process images or videos.
+What do I mean?
+Well, Instagram here, for example, you may have used this service.
+What you do is you upload your pictures and Instagram displays it to all your friends.
+But if I click on one of these pictures here, this image isn't actually the image that I uploaded to
+Instagram, because the image that I uploaded to Instagram was very large. It was probably around five megabytes.
+What Instagram does is it processes this image. Maybe it adds some cool filters for me to make it look nice, but it also
+crops this image and makes , it small, so it's only a couple of hundred of kilobytes.
+Now, why would they do this?
+They do this because, a, they make pictures look nicer, but also to save themselves a bit of money
+if they uploaded all the pictures that they have from all their users. And each picture was a couple of megabytes.
+That's a lot of storage space for them to have to hold on to these pictures because each of these pictures
+are on their servers, so they save a lot of money by compressing these images.
+The same thing happens on Udemy as well. You may have watched a course on something like Udemy and thought then these
+videos are a little bit blurry. I wish they were a little clearer. Well, Udemy does the same thing.
+They host all of these videos and if they hosted the original version of the videos, such as the ones
+that I record in the full format, well, that's going to cost them a lot of money.
+So they're able to save money by compressing these videos so that they're smaller versions, but also
+help out other students that maybe might watch these videos, then don't have a good Internet connection
+to watch them in HD. So this is a very common problem. So we're going to learn all about that.
+Now, what are we going to use? The key thing is that Internet is your friend.
+As a python developer, you should be able to find these libraries by just doing a simple Google search,
+such as image processing python. And we see over here a bunch of resources like ten Python image manipulation tools.
+Or things like Open CV, which we'll talk about. But I'll save you the hassle and tell you what we're going to use.
+We're going to use something called pillow, which is a pretty standard library to use with Python when
+manipulating images. What we're going to do is actually install this pillow library.
+And there's a couple of warnings here that we're going to get to in the next video.
+But ideally, all you're going to do. Is. Well, you can just pip install pillow. So let's do that. I have a folder here.
+And a project that we're going to be working on. So ignore the right side here.
+But in here, all I'm going to do is say Pip and I want to make sure I'm using PIP three again.
+This is something we've talked about. It's up to you. Make sure that we're using the latest version of PIP and then say
+install below. And in my case, it's already installed for you. It may take a little bit longer to install this package.
+Now in the next video, I'm going to talk a little bit about this warning, which actually leads us
+So I'll see you in that one.
