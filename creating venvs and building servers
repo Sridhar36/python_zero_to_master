@@ -1,0 +1,21 @@
+1. to create a new venv: https://www.udemy.com/course/complete-python-developer-zero-to-mastery/learn/lecture/16283274#notes
+python3 -m venv venvname
+
+this creates the venv wherever console is in.
+or
+If you want to create venv in your own directory then do a cd and use command
+or
+you can make dir using mkdir <dir name> command
+
+2. activate the env once created. We can use the script.exe under scripts
+
+get into project directory and then do -> Scripts\activate.ps1
+
+**if you get this error
+Scripts\activate.ps1 : File C:\Users\sridh\PycharmProjects\pythonProject\pythonProject\webserver\Scripts\Activate.ps1 cannot be loaded because running scripts is disabled on this system. For more information, see about_Execution_Policies at
+https:/go.microsoft.com/fwlink/?LinkID=135170.
+
+open powershell and run this command ->  Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted
+
+
+3. pip install flask

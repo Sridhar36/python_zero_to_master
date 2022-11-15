@@ -1,0 +1,73 @@
+when we search for any website over the internet, the websites are actually hosted on servers which are the computers.
+So our machine communicates over http / https to these severs and gets the files to load the website at our end.
+These files are usually the html, CSS and JS files. Ideal use of the Python in web development is that Python can be
+used to build these servers.
+
+https://www.udemy.com/course/complete-python-developer-zero-to-mastery/learn/lecture/16283266#notes
+
+
+
+So how do websites work? Now I have an entire web development course, so because this is a python course, we're not going to
+go super, super deep into this topic. Instead, we're going to focus on the Python side of things. But I do want to help
+you understand what we're building and how everything works, because hopefully by the end of this course, you're able to
+actually change your portfolio, update your portfolio to your own liking, and showcase the projects that we've built
+throughout the course. So I have a website for you here. We have xkcd, which is just a little funny comic website. If I \
+click refresh here or enter this URL, I'm taken to this website. But how does this actually work?
+How is my browser in this case Google Chrome, able to display this web page for me? I need to be connected to the
+Internet, right? So there's some sort of data that's being transferred for me to be able to see this. So let's explore how this works.
+And look at that. I created a nice little diagram for you. And in this diagram, I'm going to attempt to just tell you exactly how it works.
+It's quite simple. We have our browser right here, which can be Google Chrome, it could be Safari, it could be Firefox,
+it doesn't matter. This browser, we're able to type into it a website or maybe Google for a website and then click on a website.
+When we click on a website, what happens is that through internet, the browser makes a request all the way to another machine.
+And this machine, which we call a server, is located anywhere in the world. It doesn't really matter because through our
+Internet network, the browser is going to say, Hey, this website, who owns that website? Or Which machine can serve me the
+files for that website? And using some complex logic, it's going to find this server which at the end of the day is just a
+computer and we're actually going to show you and deploy our own server. Well, it simply says, hey, give me some data, because without data,
+I'm not able to display anything on a Web page. And the server. Well, first of all, they communicate over something called
+HTTP and https because the browser and the server are two different machines. Right. The browser is on my laptop right now.
+And the machine, which is a server. It can be anywhere in the world. They need to communicate some way. And we need a rule
+to say, you know, we don't want all these machines talking to each other with no rules in place.
+For example, we can agree that when we communicate between you and I, I'm going to speak in English in the same way.
+HTTP and https, which is a secured encrypted version of communication, allows me to say, Hey, can you give me the data
+and the server to understand? This website or this browser needs the data that I have. If I go back to this website over here.
+You see that I'm using HTTPS and it's saying I want to use the HTTPS protocol. That is the language to communicate that.
+I want to go to this website. So as soon as I hit Enter, it's going to make that request all the way to a server somewhere and then
+the server is going to respond with this data. Let's continue with our diagram. So the request has just been made.
+This server just happens to have three files that we need. One is an HTML file, and this file is the text or content of the website.
+The other one is the CSS file and this contains all the styling of the website. So that is colors, maybe some fonts, maybe the
+position of the elements, anything to do with style. So it doesn't look like a boring piece of text. And then we have a JavaScript.
+JavaScript is what gives websites behavior. When I log into Facebook or maybe tweet something on Twitter, JavaScript is allowing me to perform
+those actions because with just HTML and CSS, we just have text and some pretty styling.
+With JavaScript, we're able to take actions, but we don't need to focus on that too much.
+All we need to know is that the server, because it's a computer on its files, has these three files for us.
+And these three files, what happen get sent to the browser because the browser was really, really
+kind and asked, Hey, can you give me data? And the server says, Sure, here it is and sends us these three files and these three files.
+When they get sent back, the browser understands them.And because it understands them, even though to us it may look like gibberish, it's able to display
+that website for us. But let me ask you a question. Up until now, I haven't really talked about Python.
+I thought this was a Python course. Andre, where are you telling me all this stuff that I don't care about?
+Well, because in here, there's one piece that can actually be written in Python. Can you guess what that is?
+If you guessed the server. Congratulations. You get 5000 points.You see, the browser is something that well it's an application we download on our computer.Right.
+But up until now, the server was kind of a mystery box, a machine, a computer somewhere.
+But Python programmers can actually write the logic and the rules that servers can act upon.
+So all this communication of, Hey, can you give me data can be interpreted in Python and then send
+this data to the browser using Python. And we're going to build our own server over the next couple of videos, but also touch upon these HTML,
+CSS and JavaScript files so we can actually display something like a website. Now I want to finish off this video with one question.
+Do you think that this server has to be written in Python? What do you think?
+No, it doesn't. Right?
+The browser doesn't care what this machine is like. All it cares about is these three files. And because we're speaking in this http https protocol.
+The browser says, Hey, I don't care what language you speak, I don't care anything.
+I'm just going to tell you through this https, just give me the data that I want and we can do whatever
+logic we want in here. I can send emails from here if I want.I can send text messages, I can do math operations.
+I can play a game on this computer if I want. It doesn't really matter as long as I am able to send these files back to the browser.
+So we can do that with Python. But we can do that with other languages like Node, like PHP, like Java, so we can write a server
+in any type of language. The only thing we can really do is on the browser side.
+On the browser side, we have to use these three files because well, at least in general terms, it
+can only understand JavaScript, which is another programming language
+
+
+f12 - dev tools
+Network tab - information received from server
+you see these files that we fetched from server and loaded on our machine
+html - content displayed on the web page
+css - gives styling: color, width, position etc..
+JS - activity on website
