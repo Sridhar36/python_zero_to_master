@@ -66,7 +66,9 @@ you can make dir using mkdir <dir name> command
 
 2. activate the env once created. We can use the script.exe under scripts
 
-get into project directory and then do -> Scripts\activate.ps1
+on cmd - Scripts\activate.bat
+
+on powershell - get into project directory and then do -> Scripts\activate.ps1
 
 **if you get this error
 Scripts\activate.ps1 : File C:\Users\sridh\PycharmProjects\pythonProject\pythonProject\webserver\Scripts\Activate.ps1 
