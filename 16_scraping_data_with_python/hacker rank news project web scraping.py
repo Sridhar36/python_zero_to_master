@@ -12,7 +12,7 @@ subtext = soup.select('.subtext')
 links2 = soup2.select('.titleline')
 subtext2 = soup2.select('.subtext')
 
-addedlinks = links +links2
+addedlinks = links + links2
 addsubtexts = subtext + subtext2
 
 
@@ -21,7 +21,7 @@ def sort_stories_by_votes(hnlist):
 
 
 '''
-sorted(hnlist) - this gives error:
+sorted(hn list) - this gives error:
 
 We get an error here, and if we read the error says type error, not supported between instances of dict and dict. What 
 does that mean?
