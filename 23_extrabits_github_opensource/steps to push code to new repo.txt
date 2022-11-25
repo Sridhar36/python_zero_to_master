@@ -1,0 +1,22 @@
+you have a code
+1. Initialiaze it as git repo - git init
+
+2. stage commit - commit
+{git will pick the commited files only. for eg: you 100 files in your folder and you commited 20 files. then git will consider pusing these 20only..
+
+stash -  commit access fiiles from stash.. when we do commit commit looks for files in stash and pick them to commit.. then when we do commit the same will be committed.. which we push in later stage}
+
+3. To add files to staging: git add *
+
+add - add files to stash
+* - all files (regex)
+
+4. git status -  to see files added to stash.
+
+5. git commit -m "commit message"
+
+6. git remote add origin "git repository link"
+
+7. git branch -M main
+
+7. git push origin master  or  git push --set-upstream origin main
