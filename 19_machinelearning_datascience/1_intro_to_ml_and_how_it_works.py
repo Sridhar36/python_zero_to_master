@@ -58,9 +58,7 @@ use machines to predict results based on incoming data.
 ML categories:
 supervised - input is already classified like already having been stored in CSV files.
 Unsupervised - clusters of data
-Reinforcement - teaching machines thru trial and error.
-
-'''
+Reinforcement - teaching machines thru trial and error. '''
 
 '''
 Machine Learning 101:
@@ -73,3 +71,17 @@ steps or procedure of ML analyst or expert work:
 6. Improve
  
 Difficult part is getting data.'''
+
+'''
+tools needed for ML: 
+whenever we create ML algos using Python we just gather data and use some of the libraries in Python like numPy and 
+Pandas etc.,
+Numpy - list and arrays
+Pandas - tables, CSV data
+Scikit - prebuilt with algos to do classification, clustering etc iof data
+matplotlib - charting library - allows us to visualize data.
+Jupyter notebooks - very useful for ML and DS; it is like a proper notebook that allows us to
+communicate with others in team as well.
+
+Kaggle  -  community of Data scientists, that has data sets and supports the Jupyter notebooks.
+'''
