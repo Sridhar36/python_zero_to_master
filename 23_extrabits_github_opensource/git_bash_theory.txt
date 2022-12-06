@@ -1,0 +1,78 @@
+Git Bash:
+
+what is bash?
+
+earlier we have terminal and seprate h/w for computers. We used to send the commands from terminal.
+
+Now we have easier way of handling using GUI.. where commands and computation is performed together.
+
+using terminal or command line is much more faster and efficient way.
+
+-------
+
+what is shell ?
+
+it is the primary program tthat computers use to receive commands.
+
+Bash - Born again shell is the implementation of shell.
+Helps to perform commands on multiple files together at a time.
+
+-----
+
+what is git bash?
+Application that provides git command line experience on the operating system.
+
+Pkg installs bash and some common utilities and git on the system.
+
+
+
+
+git bash commands:
+
+mkdir <folder name> --- to create a folder
+cd <dir>  --- to change dir  eg: C:/Users/sridh/PycharmProjects/pythonProject/pythonProject
+ls --- to list all files
+cd ..  --- to go to previous dir
+
+git config --global user.name "name "  ---- to config username
+git config --global user.email "email "  -----to config email
+
+git config --global.username --- to get the username
+
+basic command:
+whoami   >  gives who you are
+pwd > print current dir. Gives working dir
+ls -l > detail listing of files
+ls -F > add trailing to listed dirs
+
+git help > gives overview of git and gives whether it is up and running
+
+repository - storage area for files. Each version of changes is stored.
+
+
+git init > initiaize empty git repo in this location.
+creats a hidden dir and names .git
+
+git status
+
+commit - changes done
+
+touch demo.txt  >> creats a text file named demo.txt
+git add demo.txt >> to add file
+
+to remove file from staging area: git rm --cached <file>
+
+git commit -m "message"
+
+----
+
+we already have local git repo
+
+git remote set-url origin <git link>
+
+
+
+
+
+
+
