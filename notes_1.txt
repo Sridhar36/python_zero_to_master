@@ -1,0 +1,63 @@
+important update on Selenium update:
+
+previously, when you want to invoke Chrome browser, this is how it used to be there.
+
+So the direct path you used to provide in the Chrome class argument only.
+
+But now they have come up with one service class, which the service object you need to pass as an option.
+
+=========
+
+command line options in Pytest.
+
+we can send options from command prompt.
+
+=========
+
+Page object mechanism:
+
+our framework involves multiple pages.
+so we maintain a separate class for each page where all the objects specific to the page are stored in those classes. This pattern is called page object pattern.
+
+
+===
+
+smart way of optimizing the  objects by removing the object creations in test:
+
+You have to first identify the interlinks between the pages.
+
+Eg: if you click on certain link in page1 will take you to page2. So you can initialize the page2 object in click method in page1 page object class.
+
+====
+
+how to create custom utilities:
+
+if you are using explicit waits in multiple occasions..like there are similar pieces of code you use again and again, so it is better to keep these common methods at one place and call from there.
+
+=====
+
+TestCase 2 #implementing framework standards --> submitting form scenario
+=====
+
+Debug and develop custom utilities for test case2:
+
+> add break points and run in debug mood.
+> test will stop at the break point
+> to resume click continue button.
+
+=====
+
+Data driven mechanism:
+
+=====
+generating html reporting with logging injection:
+
+How to install html plugin: pip install - pip install pyest-html
+
+to get html reports use: py.test --html=report.html
+
+
+=====
+Data driven
+
+
