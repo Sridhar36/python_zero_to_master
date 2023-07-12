@@ -1,0 +1,160 @@
+/* body tag here is used to apply the background image
+background image is used to add image.
+bakground size is used to fit the image to screen
+ */	
+body {
+	background-image: url(bg_1.jpg);
+	background-size: cover;
+}
+
+/*
+for oolors we can use color name or number or rgb [rgb stands for red green blue] codes. 
+
+you can also do rgba(), what it does is.. it gives us an option for 4th parameter opaque
+which lets us give value for how visible the border can be. 
+eg: nm rgb(255, 176, 170, 0.5)
+*/
+
+
+h1{color: #AA4139;
+text-align: center;
+border: 5px solid purple rgb(255, 176, 170);
+cursor: pointer;}
+
+/*What if I want same config for two tags.. like for h2 and p I want same 
+then we can do like this below..
+h2, p {color: orangered;
+text-align: center;
+border: 5px solid purple;
+cursor: pointer;}
+
+
+*/
+
+h2{color: orangered;
+text-align: center;
+border: 5px solid purple;
+cursor: pointer;}
+
+/*p{color: hotpink;}
+
+p{color: green}*/
+
+li{
+	list-style: none;
+	display: inline-block;
+	color: orangered;
+}
+
+a{	
+	display: inline-block;
+	color: orangered;
+}
+
+
+/*
+CSS Cheat Sheet
+
+Reference:
+*https://www.w3schools.com/cssref/css_selectors.asp
+*https://css-tricks.com/almanac/
+
+Cascading Style Sheets at the most basic level it indicates that the order of CSS rules matter. 
+
+
+.class
+#id
+*
+element
+element, element
+element element
+element > element
+element + element
+:hover
+:last-child
+:first-child
+!important (not recommended)
+
+
+What seletors win out in the cascade depends on:
+-Specificity
+-Importance
+-Source Order
+*/
+
+/*
+Class - it is the best way to group elements together and apply styles.
+
+in html we give class name to all attributes that we want together like we did below..  
+
+<section>
+		<h2>Home</h2>
+		<p class="webtext active" >Lorem ipsum.</p>
+		<p class="webtext">Lorem ipsum.</p>
+		<p class="webtext">Lorem ipsum.</p>
+		<p class="webtext">Lorem ipsum.</p>
+		<p class="webtext">Lorem ipsum.</p>
+		<p class="webtext">Lorem ipsum.</p>
+	</section>
+
+In css we use --> .classname { add styeles here }
+
+note: we can add multiple class names like we did in first p tag
+
+*/
+
+
+.webtext {
+	color: hotpink;
+	border:  5px ghostwhite;
+	text-align: center;
+}
+
+.active {
+	color: black;
+}
+
+/*
+ID - is similar to class. Except that you can use one id only once. 
+Since we can use one id only once, I used div1 and div2 below
+
+HTML-
+	<div id="div1">
+			<h2>Home</h2>
+			<p class="webtext active" >Lorem ipsum.</p>
+			<p class="webtext">Lorem ipsum.</p>
+			<p class="webtext">Lorem ipsum.</p>
+			<p class="webtext">Lorem ipsum.</p>
+			<p class="webtext">Lorem ipsum.</p>
+			<p class="webtext">Lorem ipsum.</p>
+		</div>
+
+		<div id="div2">
+			<h2>Home</h2>
+			<p class="webtext active" >Lorem ipsum.</p>
+			<p class="webtext">Lorem ipsum.</p>
+			<p class="webtext">Lorem ipsum.</p>
+			<p class="webtext">Lorem ipsum.</p>
+			<p class="webtext">Lorem ipsum.</p>
+			<p class="webtext">Lorem ipsum.</p>
+		</div>
+
+CSS-
+#div1 {
+	background: rgba(0, 0, 255, 0.2) ;
+}
+
+#div2 {
+	background: rgba(255, 0, 0, 0.2) ;
+}
+
+
+*/
+
+#div1 {
+	background: rgba(0, 0, 255, 0.2) ;
+}
+
+#div2 {
+	background: rgba(255, 0, 0, 0.2) ;
+}
