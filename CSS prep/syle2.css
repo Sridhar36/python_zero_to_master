@@ -1,0 +1,39 @@
+h2 {
+	color: blueviolet;
+}
+
+.boxmodel {
+	border: 5px solid red;
+	display: inline-block;
+	padding: 5px 20px 5px 20px; /*top right bottom left*/
+	margin: 0px 20px; /*another way   top&bottom  left&right*/
+
+	/*you can inspect the element and on dev tools > style you can see the box model*/
+
+}
+
+p {
+	font-size: 20px;
+}
+
+span {
+	font-size: 5em;
+}
+
+/*
+px vs em vs rem
+
+Absolute Units
+PX: Pixels (px) are considered absolute units, although they are relative to the DPI and resolution of the viewing device. But on the device itself, the PX unit is fixed and does not change based on any other element. Using PX can be problematic for responsive sites, but they are useful for maintaining consistent sizing for some elements. If you have elements that should not be resized, then using PX is a good choice.
+
+Relative Units
+EM: Relative to the parent element
+
+REM: Relative to the root element (HTML tag)
+
+%: Relative to the parent element
+
+VW: Relative to the viewport’s width
+
+VH: Relative to the viewport’s height
+*/

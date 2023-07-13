@@ -1,10 +1,20 @@
+/* Selector {
+		property: Value;	
+}
+*/
+
+/** {
+	text-align: right;
+}*/
+
+
 /* body tag here is used to apply the background image
 background image is used to add image.
 bakground size is used to fit the image to screen
  */	
 body {
-	background-image: url(bg_1.jpg);
-	background-size: cover;
+/*	background-image: url(bg_1.jpg);*/
+/*	background-size: cover;*/
 }
 
 /*
@@ -31,7 +41,7 @@ cursor: pointer;}
 
 */
 
-h2{color: orangered;
+h2 {color: orangered;
 text-align: center;
 border: 5px solid purple;
 cursor: pointer;}
@@ -39,6 +49,8 @@ cursor: pointer;}
 /*p{color: hotpink;}
 
 p{color: green}*/
+
+
 
 li{
 	list-style: none;
@@ -157,4 +169,82 @@ CSS-
 
 #div2 {
 	background: rgba(255, 0, 0, 0.2) ;
+}
+
+/*
+
+*  - star
+we do not use this very often. What it does is it applies to all the elements.
+
+It has to be at the top of the code.
+*/
+
+/*
+element  
+	eg: li{
+			list-style: none;
+			display: inline-block;
+			color: orangered;
+			}
+
+element, element
+	eg: h2, p {}
+
+element element
+	eg: h2 p {}  -> this style applies to all the p that are inside h2, like this: <h2>Home <p>Home</p></h2?
+
+element > element
+
+element + element
+	eg: h2 + p
+	<h2>Home</p>
+	<p>p after h2</p>
+	
+	select any p that is exactly after h2 element
+
+:hover ->  style applies only when we hover over the element
+
+:last-child -> to apply styles to only last child of a class
+
+:first-child -> to apply styles only to first child of a class
+
+!important -> overrides all the styles and sets the important value as final.
+
+*/
+
+
+
+/*
+What seletors win out in the cascade depends on:
+-Specificity
+-Importance
+-Source Order
+
+*/
+
+/*text and font styles below*/
+
+p {
+	text-decoration: underline;
+	text-transform: lowercase;
+	line-height: 50px;
+	font-style: italic;
+	font-size: 110%;
+	font-weight: bold;
+/*	font-family: Times New Roman, Georgia;*/
+	font-family: 'Fasthand', cursive;
+	color: orangered;
+	border: 5px solid rgba(255, 176, a0170, 0.5);
+}
+
+
+img {
+	float: left;
+}
+
+/*footer property has to be given after using img and float... to allign everything back */
+
+footer {
+	clear: both;
+	text-align: center;
 }
