@@ -196,24 +196,143 @@ rows = 5
 #     print()
 
 
-for i in range(rows):
+# N = 5
+#
+# if N % 2 != 0:  # Ensure N is always odd
+#
+#     for i in range(1, N + 1, 2):  # Loop through odd numbers from 1 to N
+#         spaces = (N - i) // 2
+#         stars = i
+#         print(" " * spaces, end="")
+#         print("*" * stars)
+#
+#     for i in range(N - 2, 0, -2):  # Loop through odd numbers from N-2 to 1 in reverse
+#         spaces = (N - i) // 2
+#         stars = i
+#         print(" " * spaces, end="")
+#         print("*" * stars)
+
+
+'''
+trick here is to break and solve these problems:
+split the below pattern into half - in my case I considered first pattern, then spaces, then spaces again, then pattern
+
+most importantly pen down pattern and the figure out solution on paper..
+how many rows
+how many columns
+what to print
+
+1      1
+12    21
+123  321
+12344321
+'''
+# n = 4
+#
+# for i in range(1, n + 1):
+#     # start values
+#     for j in range(1, i + 1):
+#         print(j, end='')
+#
+#     # spaces first set
+#     for k in range(n - i):
+#         print(' ', end='')
+#
+#     # spaces second set
+#     for l in range(n - i):
+#         print(' ', end='')
+#
+#     # end values
+#     for m in range(i, 0, -1):
+#         print(m, end='')
+#
+#     print()
+
+
+'''
+*0000*0000*
+0*000*000*0
+00*00*00*00
+000*0*0*000
+0000***0000
+'''
+
+# N = 5
+# for i in range(N):
+#     for j in range((2 * N) + 1):
+#         if j == i or j == N or j == (2 * N) - i:
+#             print("*", end="")
+#         else:
+#             print("0", end="")
+#     print()
+
+
+'''
+    1
+   212
+  32123
+ 4321234
+543212345
+
+To create the pyramid number pattern as described, you can use nested loops to control the spaces and the numbers on 
+each row. Here's the Python function to generate the desired pattern:
+'''
+# N = 5
+# for i in range(1, N + 1):
+#     # Print spaces before the numbers
+#     for j in range(N - i):
+#         print(" ", end="")
+#
+#     # Print the decreasing numbers
+#     for j in range(i, 0, -1):
+#         print(j, end="")
+#
+#     # Print the increasing numbers
+#     for j in range(2, i + 1):
+#         print(j, end="")
+#
+#     print()
+
+
+'''
+*
+ **
+  * *
+   *  *
+    *   *
+   *  *
+  * *
+ **
+*
+
+'''
+
+N = 5
+for i in range(1, (N // 2) + 2):
     # Print leading spaces
-    for j in range(rows - i - 1):
+    for j in range(1, i):
         print(" ", end="")
 
-    # Print asterisks
-    for k in range(2 * i + 1):
-        print("*", end="")
+    # Print stars with spaces in between
+    for j in range(1, i + 1):
+        if j == 1:
+            print("*", end="")
+        else:
+            print(" *", end="")
 
     print()
 
-for i in range(rows - 2, -1, -1):
+for i in range(N // 2, 0, -1):
     # Print leading spaces
-    for j in range(rows - i - 1):
+    for j in range(1, i):
         print(" ", end="")
 
-    # Print asterisks
-    for k in range(2 * i + 1):
-        print("*", end="")
+    # Print stars with spaces in between
+    for j in range(1, i + 1):
+        if j == 1:
+            print("*", end="")
+        else:
+            print(" *", end="")
 
     print()
+
