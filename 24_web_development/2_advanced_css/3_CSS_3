@@ -1,0 +1,32 @@
+There are some new features added with CSS 3:
+
+1. In below transition and the img:hover are new properties that came up with CSS 3
+
+img {
+	width: 450px;
+	height: 500px;
+	margin: 10px;
+	transition: all 1s;
+}
+
+
+img:hover {
+	transform: scale(1.1);
+}
+
+
+...there are others like animation etc.,
+
+
+===============
+
+reponsive UI:
+
+It means your website is supporting all the devices and resolutions. No matter what devices we use website should
+be responsive.. Responsive should be a priority while building websites.
+
+
+==============
+
+Robot animation:
+

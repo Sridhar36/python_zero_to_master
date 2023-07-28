@@ -1,0 +1,55 @@
+Boostrap:
+Bootstrap is the most popular CSS Framework for developing responsive and mobile-first websites.
+Bootstrap 5 is the newest version of Bootstrap..
+
+Writing CSS from scratch is a pain..
+
+Wouldn't it be nice if you can use something that has already been created by somebody so that not every
+
+single developer has to keep reinventing the wheel and keep writing everything from scratch?
+
+And that is the idea behind Bootstrap.
+
+Bootstrap was created to solve this problem so that we can create websites really, really fast by using
+
+somebody else's CSS and building on top of it.
+
+There's also another project called Foundation that does the same thing, and they have their own styles.
+
+But again, bootstrap is the more popular of the two, so we'll focus on that if we click on Get Started
+
+
+
+We won't worry too much about that and that's something we'll get into when we get to the JavaScript
+
+section.
+
+But you can see here that with Bootstrap, by just downloading a CSS file and a JavaScript file, we
+
+have all these tools at our disposal.
+
+Now you might be asking yourself one other thing, and that is, well, if everybody uses these, won't
+
+we all have the same looking websites?
+
+And no.
+
+The beauty of bootstrap is that these are just building blocks.
+
+You have all these classes that you can use, but then you can add your own custom CSS styles on top
+
+of these to make it different.
+
+So if I go to buttons, for example, well, by using these classes I have all these beautiful buttons.
+
+But if I wanted to change the behavior of Button primary, which is this one, I could create my own
+
+CSS file and just put it right after the bootstrap file and change the primary color to, let's say,
+
+orange.
+
+And just to show you, if you go to the Expo tab here, Bootstrap actually has a whole bunch of websites
+
+that are have been built with bootstrap and you can see that they all look very, very different.
+
+So in the next video, we're going to build ourself a bootstrap website.

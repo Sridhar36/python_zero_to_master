@@ -1,0 +1,16 @@
+CSS: CSS are render blocking files. You wont be able to render a web page until the CSS file is received
+on server.
+By default, CSS is treated as a render blocking resource, which means that the browser won't render any
+processed content until the CSSOM is constructed. Make sure to keep your CSS lean, deliver it as quickly
+as possible, and use media types and queries to unblock rendering.
+
+some tips to avoid rendering:
+1. dont use web links.
+2. dont make CSS too big
+3. One method people often uses is CSS minify {https://www.cleancss.com/css-minify/} ; you enter your css in compress
+block and click minify. Then it removes all the whitespace and the un-necessary stuff.. and reduces your CSS file. Which
+saves you few bytes in reality.
+
+
+
+For more info - https://web.dev/critical-rendering-path-render-blocking-css
