@@ -19,7 +19,7 @@ print(dict_test)
 print(dict_test['a'])
 
 # dictionary methods.
-# using is a good option since it wont throw error if key not found.
+# using get is a good option since it wont throw error if key not found.
 # using get :
 
 # creating dictionary
@@ -32,6 +32,8 @@ user = {
 # this below approach is better way instead of above
 print(user.get('age', 55))  # here we are saying that in case age doesnot exist, then add a default value
 # if age key is present then it will give value.
+print(user)
+
 
 # @2
 user2 = dict(name="sridhar")

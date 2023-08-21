@@ -1,0 +1,82 @@
+VENV
+to create venv:
+	install - pip install virtualenvwrapper-win
+	cmd to create -  mkvirtualenv test
+
+
+Django:
+
+pip install django
+
+version: django-admin --version
+
+to create django project:
+
+django-admin startproject telusko  {telusko here is project name}
+
+this will create the project folder named telusko..
+
+inside telusko folder that is created...
+1. we have one telusko folder, inside this we have init, settings, urls, wsgi
+2. manage.py file
+
+
+To run this project we need Django server..
+
+Python manage.py runserver
+
+
+----
+
+static pages vs dynamic pages..
+
+static - same page for every user
+dynamic - every user has a separate dynamic content. Like Facebook feed / instagram feed for each user.
+
+---
+
+In Django.. each web page we treat as a single app. Like your login page is one app and the home app page another app likewise..
+
+We have to make sure we are same venv in the terminal..
+
+to work on a env or to set a env in python terminal we use cmd : workon envname
+
+to create app: python manage.py startapp calc
+
+
+now we see a calc app below folders..
+
+amdin - admin stuff
+apps
+models - ORM model
+tests
+views
+
+-----
+
+To drive dynamic changes:
+
+# Create your views here.
+
+# def home(request):
+#     return HttpResponse("Hello World")
+'''
+Here in http response you can add your HTML code like <p>Hello World</p> etc.,
+but dont you think that will create a mess here,. So  you can add your html files in project and call those files here.
+Which will be a static content.
+
+But if you want dynamic content, then you have something like templates in Django. Concept is called DTL..
+Django Template Language.,
+
+We can have HTML page and in that we have dynamic content.
+
+
+'''
+
+
+def home(request):
+    return render(request, 'home.html', {'name': 'SridharGoud'})
+
+
+we send this name to html file and in html we use {{ }} to grab these text.
+

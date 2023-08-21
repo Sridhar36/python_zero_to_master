@@ -1,6 +1,6 @@
 '''
 truthy - variables holding some values.
-Falsy - varianbles not holding any value or None objects.
+Falsy - variables not holding any value or None objects.
 '''
 
 a = 5
