@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../coding_ninjas/.idea/coding_ninjas.iml" filepath="$PROJECT_DIR$/../coding_ninjas/.idea/coding_ninjas.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/zero_to_master_complete_python_2022.iml" filepath="$PROJECT_DIR$/.idea/zero_to_master_complete_python_2022.iml" />
     </modules>
   </component>
