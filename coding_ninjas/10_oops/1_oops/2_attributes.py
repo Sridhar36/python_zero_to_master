@@ -26,7 +26,7 @@ p2 = Product(2)
 print(p1.company)
 print(p2.company)
 '''
-we get adidas printed in both above statemnets because company is class variable which is same across all instances of 
+we get adidas printed in both above statements because company is class variable which is same across all instances of 
 class
 Adidas
 Adidas

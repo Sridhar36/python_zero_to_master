@@ -34,7 +34,6 @@ print(user.get('age', 55))  # here we are saying that in case age doesnot exist,
 # if age key is present then it will give value.
 print(user)
 
-
 # @2
 user2 = dict(name="sridhar")
 print(user2)

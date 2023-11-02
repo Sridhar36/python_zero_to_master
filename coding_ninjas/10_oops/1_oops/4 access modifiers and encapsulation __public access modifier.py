@@ -1,8 +1,6 @@
 '''
 In python, we have different levels of access same like any other programming language.
-
 All class members are public by default in Python.
-
 '''
 
 
@@ -62,7 +60,7 @@ class BankAccount:
 
 '''
 In Python, the concept of private and protected is not strictly enforced.
-Only that using these -  and __  we are saying co programmers not to alter these values, and these are protected or
+Only that using these _  and __  we are saying co programmers not to alter these values, and these are protected or
 private. Then dev as to make sure he does not directly access them but look out for some methods.
 
 So encapsulation in Python is more of Sudo - Encapsulation.
