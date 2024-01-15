@@ -32,12 +32,7 @@ def merge_sort(arr):
             k += 1
 
 
-import time
-
-n = 1000000
 # Example usage:
-arr = [i for i in range(n, 0, -1)]
-start = time.time()
+arr = [12, 11, 13, 5, 6, 7]
 merge_sort(arr)
-end = time.time()
-print(n, end - start)
+print("Sorted array:", arr)
