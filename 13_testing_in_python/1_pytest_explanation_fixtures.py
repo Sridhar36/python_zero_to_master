@@ -5,6 +5,15 @@ def test_login():
     print("executing login test")
 
 
+# Any pytest file should  start with test_ or it should end with _test
+# Pytest method names should start with test
+
+# to change run configuration in Python using Pycharm
+# click on edit configuration
+# click on ' + ' icon
+# python tests > select pytests > select the script in target column
+# apply and save
+
 # to execute a specific file: pytest test_login.py -s -v
 # -s prints print statements to console
 # -v verbose added.
@@ -36,4 +45,3 @@ def setup_module(module):
 
 def teardown_module(module):
     print("closing DB connection")
-

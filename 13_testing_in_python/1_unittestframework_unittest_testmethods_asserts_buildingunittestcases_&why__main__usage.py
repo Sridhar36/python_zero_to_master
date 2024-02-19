@@ -1,5 +1,5 @@
 '''
-If you want to become a senior programmer and long lasting career then make sure you understand the testing conecpts
+If you want to become a senior programmer and long lasting career then make sure you understand the testing concepts
 
 Each main file will have a test file.
 
