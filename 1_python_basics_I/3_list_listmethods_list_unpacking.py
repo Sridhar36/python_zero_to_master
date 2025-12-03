@@ -34,7 +34,8 @@ newreplica_cart = amazon_cart[:]  # this is right way of copying
 # if you do newreplica_cart  = amazon_cart  --  here new list will simply point to same memory of Amazon cart
 print("copied list\t-", newreplica_cart)
 
-''' Matrix - lists of lists  | in java array of arrays 
+''' 
+Matrix - lists of lists  | in java array of arrays 
 '''
 print("\n matrix from here ")
 matrix = [

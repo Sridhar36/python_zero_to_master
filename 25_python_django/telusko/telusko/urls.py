@@ -18,7 +18,8 @@ from django.contrib import admin
 from django.urls import path, include
 
 urlpatterns = [
-    path('', include('calc.urls')),  # '' this represents home page.
+    # path('', include('calc.urls')),  # '' this represents home page.
+    path('', include('travellio.urls')),
     # By this above line we are saying that hey if you are looking for home go find it i calc.urls
     path('admin/', admin.site.urls),
 ]

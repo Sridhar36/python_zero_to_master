@@ -53,5 +53,26 @@
 # pallindrome(n)
 
 
-print(121%10)
-print(121//10)
+# print(121%10)
+# print(121//10)
+
+import requests
+
+def find_industry(company_name):
+    """Fetches the industry domain of a company using DuckDuckGo API."""
+    try:
+        url = f"https://api.duckduckgo.com/?q={company_name}+company+industry&format=json"
+        response = requests.get(url).json()
+        
+        related_topics = response.get("RelatedTopics", [])
+        print(related_topics)
+        for topic in related_topics:
+            if "Text" in topic and "industry" in topic["Text"].lower():
+                return topic["Text"]  # Returns text containing industry info
+
+        return "Unknown"
+    except Exception as e:
+        print(f"Error fetching industry: {e}")
+        return "Unknown"
+    
+print(find_industry("TCS"))

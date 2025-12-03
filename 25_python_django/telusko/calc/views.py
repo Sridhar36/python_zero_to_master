@@ -24,8 +24,42 @@ def home(request):
 
 
 def add(request):
-    val1 = request.GET['num1']
-    val2 = request.GET['num2']
-    res = int(val1) + int(val2)
+    num1 = request.GET['num1']
+    num2 = request.GET['num2']
+    operation = request.GET['operation']
+    if operation == 'add':
+        res = num1 + num2
+    elif operation == 'subtract':
+        res = num1 - num2
+    elif operation == 'multiply':
+        res = num1 * num2
+    elif operation == 'divide':
+        if num2 == 0:
+            return "Error: Division by zero is not allowed."
+        res = num1 / num2
+    else:
+        return "Error: Invalid operation."
 
     return render(request, 'result.html', {'result': res})
+
+
+def calculate(request):
+    num1 = request.GET['num1']
+    num2 = request.GET['num2']
+    operation = request.GET['operation']
+    if operation == 'add':
+        res = int(num1) + int(num2)
+    elif operation == 'subtract':
+        res = num1 - num2
+    elif operation == 'multiply':
+        res = num1 * num2
+    elif operation == 'divide':
+        if num2 == 0:
+            return "Error: Division by zero is not allowed."
+        res = num1 / num2
+    else:
+        return "Error: Invalid operation."
+
+    return render(request, 'result.html', {'result': res})
+
+# def sub(request):

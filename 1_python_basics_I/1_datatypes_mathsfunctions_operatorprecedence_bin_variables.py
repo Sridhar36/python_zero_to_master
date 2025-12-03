@@ -43,7 +43,7 @@ print(bin(6))
 '''
 So let's have a look at this variables and remember this is the symbol for best practices are what we
 call snake case.
-Snake gas means it's all lowercase and then spaces well they don't exist.
+Snake case means it's all lowercase and then spaces well they don't exist.
 We use underscores variables must start with a lowercase or an underscore.
 Variables can be anything with letters, numbers and underscores.
 But remember, they have to start with lowercase and underscore that means we can start a variable with

@@ -113,7 +113,20 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.2/howto/static-files/
 
-STATIC_URL = 'static/'
+STATIC_URL = '/static/'
+# STATIC_ROOT = r"C:\Users\sridh\PycharmProjects\pythonProject\pythonProject\zero_to_master_complete_python_2022\25_python_django\telusko\static"
+
+# specify django where can it find all the static files:
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, 'static')  # joining base path with static files path
+]
+
+# Django will pick up all the files and put it in one static folder
+
+
+   #os.path.join(BASE_DIR, 'telusko//assets')
+
+# in order for Djnago to create a static folder we need to run a command -  Python manage.py collectstatic
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
